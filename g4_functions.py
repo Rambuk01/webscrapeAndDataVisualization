@@ -272,7 +272,7 @@ def getSetlistData(link_url: str):
     return return_setlist
 
 def findLocationGmaps(adr: str):
-    gmaps_key = "AIzaSyBpqwAaB83fs0Eu9MvXo1oYM93SvEqy_l4"
+    gmaps_key = ""
     gmaps = googlemaps.Client(key=gmaps_key)
 
     geocode_result = gmaps.geocode(adr)
